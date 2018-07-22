@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)http://rozhlas2017.superkoderi.cz/tpl/14-datari.html -->
+<html lang="cs" class="js fonts-loaded no-touchevents"><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><![endif]-->
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=0">
+
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="Dataři">
+	<meta name="twitter:description" content="">
+	<meta name="twitter:image" content="../img/illust/twitter.jpg">
+
+	<meta property="og:title" content="Dataři">
+	<meta property="og:description" content="">
+	<meta property="og:image" content="../img/illust/facebook.jpg">
+	<meta property="og:site_name" content="Project">
+	<meta property="og:url" content="http://www.rozhlas.cz/zpravy/portal/">
+
+	<title>Dataři | iRozhlas</title>
+
+	<link rel="stylesheet" href="./wrapper_files/style.css" media="screen, handheld">
+
+	<link rel="icon" href="http://rozhlas2017.superkoderi.cz/img/favicon.ico">
+	<link rel="apple-touch-icon" href="http://rozhlas2017.superkoderi.cz/img/apple-touch-icon-iphone.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="http://rozhlas2017.superkoderi.cz/img/apple-touch-icon-ipad.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="http://rozhlas2017.superkoderi.cz/img/apple-touch-icon-large.png">
+
+	<!--[if lt IE 9]>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+	<script>
+		(function () {
+			var className = document.documentElement.className;
+			isOperaMini = (navigator.userAgent.indexOf('Opera Mini') > -1);
+
+			function getCookie(name) {
+				var value = '; ' + document.cookie;
+				var parts = value.split('; ' + name + '=');
+				if (parts.length === 2) return parts.pop().split(';').shift();
+			}
+
+			var textSize = getCookie('textSize');
+
+			if (textSize) {
+				document.documentElement.setAttribute('data-fz', textSize);
+			}
+
+			className = className.replace('no-js', 'js');
+
+			if(document.cookie.indexOf('fontsLoaded') > -1) {
+				className += ' fonts-loaded';
+			}
+
+			if(document.cookie.indexOf('inverseVersion') > -1) {
+				className += ' page-inverse';
+			}
+
+			if(document.cookie.indexOf('textVersion') > -1 || isOperaMini) {
+				className += ' page-text-version';
+			}
+
+			if(isOperaMini) {
+				className += ' operamini';
+			}
+
+			if(/iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream) {
+				className += ' ios';
+			}
+
+			if(document.querySelector && document.cookie.indexOf('forceDesktop') > -1) {
+				var viewport = document.querySelector("meta[name=viewport]");
+				viewport.setAttribute('content', 'width=1200');
+				className += ' page-forced-desktop';
+			}
+
+			document.documentElement.className = className;
+		}());
+	</script>
+
+	<script src="./wrapper_files/modernizr.min.js"></script>
+<style type="text/css">
+:root #content > #center > .dose > .dosesingle,
+:root #content > #right > .dose > .dosesingle
+{ display: none !important; }</style><style type="text/css">
+:root #content > #right > .dose > .dosesingle,
+:root #content > #center > .dose > .dosesingle
+{ display: none !important; }</style></head>
+
+	<body id="top" class="">
+<nav class="m-accessibility" aria-labelledby="m-accessibility">
+	<p id="m-accessibility" class="vhide">Přístupnostní navigace</p>
+	<a title="Přejít k obsahu (Klávesová zkratka: Alt + 2)" accesskey="2" href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#main">Přejít k obsahu</a>
+	<span class="hide">|</span>
+	<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#menu-main">Přejít k hlavnímu menu</a>
+	<span class="hide">|</span>
+	<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#form-search">Přejít k vyhledávání</a>
+</nav>
+
+		<header class="header header--simple" role="banner">
+			<div class="row-main">
+				<div class="header__top hide--m">
+<div class="header__search">
+	<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="header__login">Přihlásit</a>
+
+	<form id="form-search" action="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html?" class="f-search f-search--header" role="search">
+		<p class="inp">
+			<label for="search-header" class="inp__label js-search">
+				<span class="icon-svg icon-svg--search">
+	<svg class="icon-svg__svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<use xlink:href="./wrapper_files/icons-svg.svg#icon-search" x="0" y="0" width="100%" height="100%"></use>
+</svg><span class="icon-svg__fallback">Vyhledávání</span>	
+</span>
+
+			</label>
+			<span class="inp__fix">
+				<input type="text" placeholder="Zadejte hledaný výraz" class="inp__text inp__text--icon-after" id="search-header" name="search-header">
+
+				<button class="btn btn--icon-blank" type="submit">
+					<span class="btn__text">
+						<span class="icon-svg icon-svg--search">
+	<svg class="icon-svg__svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<use xlink:href="./wrapper_files/icons-svg.svg#icon-search" x="0" y="0" width="100%" height="100%"></use>
+</svg><span class="icon-svg__fallback">Vyhledat</span>	
+</span>
+
+					</span>
+				</button>
+			</span>
+		</p>
+	</form>
+</div>
+				</div>
+
+				<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="header__images js-text-version--icon">
+					<span class="icon-svg icon-svg--images">
+	<svg class="icon-svg__svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<use xlink:href="./wrapper_files/icons-svg.svg#icon-images" x="0" y="0" width="100%" height="100%"></use>
+	</svg>
+</span>
+
+					<span class="vhide">Zobrazit obrázky</span>
+				</a>
+
+	<p class="header__logo">
+		<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#">
+			<span class="vhide">iRozhlas</span>
+			<span class="icon-svg icon-svg--logo-irozhlas">
+	<svg class="icon-svg__svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<use xlink:href="./wrapper_files/icons-svg.svg#icon-logo-irozhlas" x="0" y="0" width="100%" height="100%"></use>
+</svg><span class="icon-svg__fallback">iRozhlas</span>	
+</span>
+
+		</a>
+	</p>
+
+				<nav id="menu-main" class="m-main m-main--simple" role="navigation" aria-labelledby="m-main">
+					<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="m-main__toggle js-mobile-menu" id="m-main">
+						<span class="vhide">Hlavní menu</span>
+						<span class="icon-svg icon-svg--menu">
+	<svg class="icon-svg__svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<use xlink:href="./wrapper_files/icons-svg.svg#icon-menu" x="0" y="0" width="100%" height="100%"></use>
+	</svg>
+</span>
+
+					</a>
+
+					<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="m-main__link m-main__link--home js-static-menu" data-src="./m-static.html">
+						<span class="vhide">Český rozhlas - Zprávy</span>
+						<span class="icon-svg icon-svg--symbol">
+	<svg class="icon-svg__svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<use xlink:href="./wrapper_files/icons-svg.svg#icon-symbol" x="0" y="0" width="100%" height="100%"></use>
+	</svg>
+</span>
+
+					</a>
+				</nav>
+			</div>
+
+			<p class="header__socials">
+				<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#">
+					<span class="icon-svg icon-svg--facebook">
+	<svg class="icon-svg__svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<use xlink:href="./wrapper_files/icons-svg.svg#icon-facebook" x="0" y="0" width="100%" height="100%"></use>
+	</svg>
+</span>
+
+					<span class="vhide">Facebook</span>
+				</a>
+				<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#">
+					<span class="icon-svg icon-svg--twitter">
+	<svg class="icon-svg__svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<use xlink:href="./wrapper_files/icons-svg.svg#icon-twitter" x="0" y="0" width="100%" height="100%"></use>
+	</svg>
+</span>
+
+					<span class="vhide">Twitter</span>
+				</a>
+			</p>
+		</header>
+
+		<main id="main" class="main" role="main">	
+		<article role="article" class="b-data"> 			
+			<div class="b-data__content" id="content">
+<script src="https://code.highcharts.com/highcharts.js"></script>
+
+<script type="text/javascript">document.getElementsByTagName('article')[0].classList.add('b-data--no-img');</script>
+<style>li{background:none !important}ul,ol{list-style:initial !important}hr{max-width:none !important}.highcharts-legend-item>.highcharts-point{display:none}#darkbluedot{background:darkblue;border-radius:50%;display:inline-block;height:10px;margin-left:4px;margin-right:4px;bottom:4px;width:10px}.result{margin-bottom:10px;margin-top:-5px}</style>
+<div class="row-main row-main--article">
+<h1 class="b-data__title b-data__title--sm">
+„Nejspíš“? 50, 70 i 90 procent. Podívejte se, co pro vás znamená „asi“ nebo „určitě“
+</h1>
+</div>
+<div class="row-main row-main--narrow">
+<p class="text-bold text-lg">Do průzkumu zjišťujícího konkrétní vnímání slov, která vyjadřují neurčitou pravděpodobnost, se zapojilo celkem 3000 lidí. Zatímco na některých slovech panuje shoda, jiná se od sebe liší i o desítky procent.</p>
+<p class="meta meta--icon">
+	<span class="icon-svg icon-svg--bullet">
+	<svg class="icon-svg__svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<use xlink:href="https://www.irozhlas.cz/sites/all/themes/custom/irozhlas/img/bg/icons-svg.svg#icon-bullet" x="0" y="0" width="100%" height="100%"></use>
+	</svg>
+</span>
+
+	<strong>Praha</strong> <time>23. července 2018</time>
+</p>
+
+<figure class="b-detail__img"><img src="https://www.irozhlas.cz/sites/default/files/styles/zpravy_snowfall/public/uploader/checklist-2077020_19_180717-204417_zlo.jpg?itok=8mJp570U" width="100%" /><figcaption>Ilustrační foto (Tero Vesalainen, <a href='https://pixabay.com/en/checklist-check-list-marker-2077020/'>Pixabay</a>, CC0)</figcaption></figure>
+
+<p>Slova jako <em>asi</em>, <em>možná</em> nebo <em>určitě</em>, tedy takzvané modální částice, používáme v běžné řeči každý den. Dáváme jimi najevo přibližnou pravděpodobnost, aniž bychom ji vyjádřili v konkrétních číslech. Často je také používáme jako zlehčení příliš pádného prohlášení. </p>
+<p>Jejich vnímání v češtině jsme zjišťovali <a href="https://www.irozhlas.cz/zivotni-styl/spolecnost/data-rozhlas-anketa-asi-pravdepodobne-mozna_1807180800_zlo">průzkumem mezi čtenáři serveru iROZHLAS.cz</a>. Zúčastnilo se ho celkem 3000 respondentů. Celkem patnácti slovům vyjadřujícím více či méně určitou šanci měli přidělit konkrétní pravděpodobnost v procentech.</p>
+<p>Rozporů vyšlo najevo hned několik. Na slovech <em>nejspíš</em>, <em>pravděpodobně</em>, <em>často</em> a <em>spíše</em> se čtenáři prakticky vůbec neshodli. Jejich vnímání se pohybuje v rozsahu od padesáti do devadesáti procent jistoty.</p>
+<div id="q5"></div>
+
+<div id="q7"></div>
+
+<div id="q12"></div>
+
+<div id="q10"></div>
+
+<pre><code>
+</code></pre>
+<p>Mezi slovy vyjadřujícími četnost se tipy nejvíce lišily u <em>občas</em> a <em>vzácně</em>. <em>Občas</em> hodnotilo 28 procent čtenářů jako slovo „padesát na padesát“, většina odhadů se ale pohybuje mezi dvaceti a čtyřiceti procenty.</p>
+<div id="q13"></div>
+
+<div id="q14"></div>
+
+<p>Slov, kterým čtenáři nejčastěji přidělovali stoprocentní jistotu, bylo pět: <em>vždy</em>, <em>určitě</em>, <em>jistě</em>, <em>rozhodně</em> a <em>každopádně</em>. Velká většina odhadů se pohybovala mezi osmdesátkou a stovkou. Například <em>rozhodně</em> ovšem více než desetina čtenářů hodnotí jako devadesátiprocentní.</p>
+<div id="q11"></div>
+
+<div id="q3"></div>
+
+<div id="q1"></div>
+
+<div id="q4"></div>
+
+<div id="q2"></div>
+
+<p>Výchozí hodnotu pravděpodobnosti, tedy 50, dávali čtenáři nejčastěji třem slovům - <em>možná</em>, <em>snad</em> a <em>asi</em>. U <em>asi</em> a zejména <em>snad</em> byl ale rozptyl odhadů vysoký, od 20 až k 80 procentům.
+<div id="q9"></div>
+<div id="q8"></div>
+<div id="q6"></div></p>
+<p>Zvláštní případ je pak slovo <em>nikdy</em>. Téměř 70 procent lidí mu přidělilo nulaprocentní pravděpodobnost, tři procenta odpovídajích mu ale udělila stovku. Že se daná věc <em>nikdy</em> nestane, považovali totiž za stoprocentní.</p>
+<div id="q15"></div>
+
+<p>Při tvorbě průzkumu jsme se inspirovali <a href="https://hbr.org/2018/07/if-you-say-something-is-likely-how-likely-do-people-think-it-is" target="_blank">podobným zjišťováním</a>, které proběhlo ve Spojených státech. Zúčastnilo se ho 1700 respondentů a ukázal, že hodnoty přisuzované slovům a frázím jako <em>likely</em> (pravděpodobně) nebo <em>not often</em> (nepříliš často) se liší i o desítky procent.</p>
+<h2>Zbavit se odpovědnosti</h2>
+<p>Vnímání pravděpodobnosti se ve své knize <a href="https://www.knihovny.cz/Record/nkp.NKC01-002835789" target="_blank">Superprognózy</a> věnuje profesor psychologie na Pensylvánské univerzitě Philip Tetlock. Vágní formulace a špatná práce s pravděpodobností podle něj postrčily Ameriku do války s Irákem – pravděpodobnost výskytu zbraní hromadného ničení si každý vyložil tak, jak se mu to hodilo.</p>
+<p>Podle Tetlocka neurčité výrazy užívají lidé ve chvíli, kdy se chtějí zbavit odpovědnosti. A platí to jak u politiků, tak u manažerů nebo <a href="http://journals.sagepub.com/doi/abs/10.1177/0963662515606681?journalCode=pusa" target="_blank">novinářů</a>.</p>
+<p>I když každý vnímá pravděpodobnost ukrytou za slovy <em>možná</em> nebo <em>nejspíš</em> trochu jinak, existují společné trendy: podle analytiků diskusního serveru Quora jsou ženy <a href="http://journals.sagepub.com/doi/abs/10.1177/0361684310392728" target="_blank">opatrnější</a> při vyjadřování názoru a volí méně jednoznačné formulace než muži. Výrazy jako <em>možná</em> nebo <em>věřím, že</em> se v odpovědích autorek vyskytovaly o 13&nbsp;% častěji než v příspěvcích autorů.</p>
+<p>Míra nejistoty spojená s určitými slovy také závisí na kontextu, ve kterém se výraz nachází. I proto mají některé organizace přesně dané výrazy a k nim <a href="https://www.digitalshadows.com/blog-and-research/uncertainties-in-the-language-of-uncertainty-and-why-we-need-to-talk-about-it/" target="_blank">navázaná procentuální rozpětí pravděpodobnosti</a>. Z neurčitých slov se tak stávají svého druhu <a href="https://cs.wikipedia.org/wiki/Term%C3%ADn" target="_blank">termíny</a>.</p>
+<p>Podobná situace je i v právu, při čtení zákonů mají výrazy <em>mohl by</em> nebo <em>je možné</em> konkrétní význam, často daný tím, jak takový výraz soudy vyložily v minulosti.</p>
+
+<p class="meta meta--right meta--big">
+<!--[[ZPRAVY_SNOWFALL_AUTHORS:FOOTER]]-->
+</p>
+</div>
+<!--[[ZPRAVY_SNOWFALL_RELATED:ARTICLES]]-->
+</div>
+</article>
+</div>
+</div>
+</div><script>
+var hist={'q6':[2,1,0,3,6,6,2,8,5,5,20,9,1,7,6,21,10,11,8,11,80,20,15,16,23,109,23,18,21,9,136,37,32,48,27,64,13,20,25,20,159,33,25,18,10,32,8,6,7,4,598,14,9,7,14,66,15,11,24,28,166,32,21,17,16,67,29,11,14,11,72,16,14,8,5,39,5,4,0,4,20,3,2,0,2,3,3,1,0,1,3,1,2,1,1,2,0,0,0,0,3],'q1':[2,0,0,1,0,0,0,0,1,1,0,1,1,1,0,0,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,1,0,1,0,0,0,0,30,0,0,0,2,1,0,0,1,1,8,5,0,2,4,8,8,2,4,7,25,7,5,6,11,41,20,15,17,17,97,24,27,24,36,82,32,31,38,45,214,52,33,25,41,164,55,41,29,60,1172],'q2':[3,0,0,0,1,2,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,1,0,0,0,0,2,0,0,0,2,1,0,0,0,1,1,0,0,0,6,1,0,0,2,0,0,1,0,1,60,0,1,2,0,0,2,1,0,1,7,5,3,8,3,17,12,8,14,8,41,6,16,13,13,58,18,18,21,26,132,26,30,36,29,94,35,31,33,40,231,50,36,29,44,126,45,31,31,46,1003],'q3':[2,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,24,0,0,0,0,1,0,0,0,0,0,2,0,2,1,1,2,1,1,5,10,6,6,9,1,15,8,8,9,12,60,17,18,24,19,80,26,17,31,29,215,39,47,36,30,168,39,56,49,84,1378],'q4':[0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1,0,1,0,1,0,0,0,1,0,0,0,1,0,20,1,0,0,0,2,1,0,2,0,4,1,2,1,4,0,1,2,2,4,14,6,2,11,8,26,15,11,10,17,88,29,28,21,37,104,28,34,35,52,283,54,44,40,55,169,48,34,38,59,1134],'q5':[1,0,0,0,0,1,0,0,1,2,2,0,0,0,1,1,0,0,0,0,5,0,1,0,3,4,5,2,0,1,9,4,1,2,3,5,4,2,4,4,14,5,6,4,5,6,0,1,2,4,142,6,4,4,6,25,11,11,20,18,142,28,30,20,28,92,51,37,31,31,184,46,47,57,61,288,61,42,36,37,323,54,37,27,32,152,29,17,15,22,120,16,6,5,6,10,0,1,1,1,3],'q7':[0,0,0,0,1,1,0,1,0,0,1,0,1,0,0,1,1,1,0,0,2,0,0,2,2,2,3,3,1,4,6,1,1,1,1,3,1,2,2,3,13,2,2,2,1,6,4,1,2,2,304,15,2,1,5,15,3,7,5,12,91,33,12,19,16,78,58,26,30,44,205,46,48,39,64,348,64,41,31,47,336,53,38,16,29,103,18,16,19,19,115,8,4,2,2,19,3,1,1,0,4],'q8':[3,0,0,1,2,2,0,1,2,2,7,4,0,3,3,6,1,3,1,4,22,8,6,10,4,42,9,9,8,7,54,7,13,18,8,21,17,22,7,17,81,15,18,5,4,25,16,10,12,9,979,21,12,11,10,53,19,15,8,19,185,26,19,21,18,83,48,26,24,22,122,23,18,12,13,117,18,6,15,6,40,3,5,2,4,17,3,4,0,0,5,1,1,0,0,2,0,2,0,0,5],'q9':[3,0,0,0,0,2,1,0,3,2,7,1,0,4,1,9,3,1,4,3,39,7,10,10,6,51,17,15,15,16,77,20,12,23,12,45,11,13,19,17,125,23,15,13,11,39,8,11,14,13,1567,14,13,8,12,34,6,4,9,6,49,13,7,4,8,23,9,6,2,3,7,4,0,2,1,8,1,1,0,0,2,0,1,1,0,0,0,1,0,1,3,0,0,0,0,0,0,0,0,0,4],'q10':[1,0,0,0,0,1,1,0,0,1,0,2,0,1,0,0,2,1,1,0,3,3,2,1,2,7,2,0,2,7,15,7,2,4,6,10,4,2,6,6,23,6,4,4,6,6,1,1,1,3,124,25,8,13,16,73,27,37,31,55,427,87,75,51,66,186,117,79,44,52,225,39,35,36,47,238,29,17,15,17,57,7,9,9,6,14,4,1,0,2,5,2,0,1,0,3,0,0,0,0,2],'q13':[3,0,0,0,0,5,0,3,1,1,24,5,5,5,5,40,15,7,11,20,157,32,32,27,37,211,33,18,31,27,207,37,40,67,31,86,34,20,23,34,122,34,20,16,12,13,11,3,7,13,717,9,5,7,6,17,6,6,6,4,42,10,10,3,9,16,10,5,6,4,15,4,6,3,4,10,6,3,1,2,2,1,0,1,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,1,0],'q14':[9,38,54,64,72,453,107,89,63,111,578,117,62,30,46,150,44,31,27,38,161,24,22,6,11,43,9,6,2,8,17,5,7,6,3,5,2,3,1,1,4,1,0,0,0,1,0,1,0,1,33,1,0,0,0,0,0,1,1,0,1,0,0,2,0,0,1,0,0,0,1,0,1,0,2,1,0,2,1,1,4,1,1,0,0,0,1,0,0,0,7,0,0,0,0,0,0,0,0,0,5],'q11':[2,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,2,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,17,0,0,0,0,0,0,0,0,0,1,0,1,1,0,2,0,2,1,2,6,1,2,2,2,5,3,5,0,3,11,6,3,5,4,30,7,8,18,14,84,34,23,23,34,109,37,40,59,103,1886],'q12':[1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,1,0,3,3,1,3,2,2,1,2,3,4,12,1,0,2,3,2,0,1,3,0,139,2,2,1,3,7,6,2,6,10,73,21,17,21,23,76,52,37,39,39,261,65,50,53,72,404,86,66,49,51,348,71,41,27,23,73,19,14,15,19,65,11,6,6,2,4,2,2,0,1,14],'q15':[1813,147,82,67,54,130,25,24,18,16,54,14,1,5,3,13,6,6,4,1,14,1,1,0,1,4,0,4,0,0,1,0,0,0,0,0,1,1,0,0,1,0,0,1,0,0,1,1,0,0,14,0,0,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0,0,0,1,1,0,0,1,0,0,1,0,2,2,0,1,1,1,3,0,0,2,2,2,1,4,1,4,3,4,2,5,75]};var questions={"q1":"jistě","q2":"každopádně","q3":"určitě","q4":"rozhodně","q5":"nejspíš","q6":"snad","q7":"pravděpodobně","q8":"asi","q9":"možná","q10":"spíše","q11":"vždy","q12":"často","q13":"občas","q14":"vzácně","q15":"nikdy"};for(qid in questions){var response=hist[qid];var total=0;var sum=0;var medianArr=[];for(var i=0;i<response.length;i++){for(var times=0;times<response[i];times++){medianArr.push(i);}}
+var median=medianArr[Math.round(medianArr.length/2)];for(i in response){total+=response[i];}
+for(i in response){response[i]=(Math.round((response[i]/total*100)*100))/100;}
+for(i=0;i<=100;i++){if(!(i in response)){response[i]=0;};};var div=document.createElement("div");div.innerHTML='<h3>'+questions[qid]+'</h3>';div.innerHTML+='<div id="chart'+qid+'" style="width: 100%; margin: 0 auto"></div>';div.innerHTML+='<div class="result" id="res'+qid+'">Medián tipu je <b>'+Math.round(median)+' %</b>.</div>';document.querySelector("#"+qid).appendChild(div);var chart=Highcharts.chart('chart'+qid,{chart:{type:'column',height:150},title:{text:null},xAxis:{crosshair:true,},legend:{enabled:false},credits:{enabled:false},yAxis:{min:0,max:75,endOnTick:false,tickAmount:4,title:{text:'Podíl hlasů'},labels:{format:"{value} %"}},plotOptions:{column:{pointPadding:0.1,borderWidth:0,events:{legendItemClick:function(){return false;}}}},tooltip:{pointFormat:'<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y} %</b> čtenářů<br/>'},series:[{name:'Hodnotu zadalo',data:response}]});}</script>
+
+		</article>
+			<div class="wrapper">
+				<div class="row-main">
+					<section role="region" class="b-category">
+						<div class="b-category__side">
+							<h2 class="title title--icon">
+								<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#">
+									<span class="icon-svg icon-svg--bullet">
+	<svg class="icon-svg__svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<use xlink:href="./wrapper_files/icons-svg.svg#icon-bullet" x="0" y="0" width="100%" height="100%"></use>
+	</svg>
+</span>
+
+									Zahraničí
+								</a>
+							</h2>
+
+<div class="c-grid hide--m">
+	<ul class="c-grid__list">
+
+		<li class="c-grid__item">
+			<div class="b-audio">
+				<p class="b-audio__head">
+					<span class="b-audio__play">
+						<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="play-btn">
+							Přehrát
+							<span class="icon-svg icon-svg--play">
+	<svg class="icon-svg__svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<use xlink:href="./wrapper_files/icons-svg.svg#icon-play" x="0" y="0" width="100%" height="100%"></use>
+	</svg>
+</span>
+
+						</a>
+					</span>
+					<span class="b-audio__meta text-uppercase"><time datetime="2016-10-18">18.10.</time> <a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#">Magazín Meteor</a></span>
+				</p>
+				<p class="b-audio__title">
+					Planeta pavouků, hledá se plch velký a jak se rodí objevy?
+				</p>
+			</div>
+		</li>
+		<li class="c-grid__item">
+			<div class="b-audio">
+				<p class="b-audio__head">
+					<span class="b-audio__play">
+						<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="play-btn">
+							Přehrát
+							<span class="icon-svg icon-svg--play">
+	<svg class="icon-svg__svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<use xlink:href="./wrapper_files/icons-svg.svg#icon-play" x="0" y="0" width="100%" height="100%"></use>
+	</svg>
+</span>
+
+						</a>
+					</span>
+					<span class="b-audio__meta text-uppercase"><time datetime="2016-10-18">18.10.</time> <a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#">Magazín Meteor</a></span>
+				</p>
+				<p class="b-audio__title">
+					Planeta pavouků, hledá se plch velký a jak se rodí objevy?
+				</p>
+			</div>
+		</li>
+
+	</ul>
+</div>
+						</div>
+
+						<div class="b-category__content">
+							<div class="c-articles">
+								<div class="c-articles__list">
+									<article role="article" class="c-articles__item">
+										<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="b-article">
+											<div class="b-article__img img img--16x9 img--w480 img--w238--m" data-text-version="">
+												<span class="img__holder">
+													<img src="./wrapper_files/480x270.jpg" width="480" height="270" alt="">
+												</span>
+											</div>
+											<div class="b-article__content">
+												<h3 class="text-xl text-sm--m text-regular--m">
+													Na Mars a zpět. Obama věří v cestu lidí na rudou planetu do roku 2030
+												</h3>
+												<p class="text-sm hide--m">
+													Podle rozhodnutí ministerstva vnitra je přes 25 milionů za výpis trestných činů za posledních pět let adekvátní. Česko tak zatím nebude mít podrobnou mapu kriminality, která je v zahraničí běžná. Věcí se nyní...
+												</p>
+											</div>
+										</a>
+									</article>
+
+									<article role="article" class="c-articles__item c-articles__item--w50p">
+										<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="b-article">
+											<div class="b-article__img img img--16x9 img--w238" data-text-version="">
+												<span class="img__holder">
+													<img src="./wrapper_files/238x134.jpg" width="238" height="134" alt="">
+												</span>
+											</div>
+											<div class="b-article__content">
+												<h3 class="text-sm--m text-md text-regular--m">
+													Z dánské rybí farmy uplavalo 80 tisíc pstruhů. Pochytejte je, ohrožují ekosystém, vyzývají odborníci
+												</h3>
+											</div>
+										</a>
+									</article>
+
+									<article role="article" class="c-articles__item c-articles__item--w50p">
+										<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="b-article">
+											<div class="b-article__img img img--16x9 img--w238" data-text-version="">
+												<span class="img__holder">
+													<img src="./wrapper_files/238x134.jpg" width="238" height="134" alt="">
+												</span>
+											</div>
+											<div class="b-article__content">
+												<h3 class="text-sm--m text-md text-regular--m">
+													Video: 'Tanec' boeingu na Letišti Václava Havla. Piloty překvapil poryv větru
+												</h3>
+											</div>
+										</a>
+									</article>
+								</div>
+
+								<p class="c-articles__more hide--d">
+									<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="link-more link-more--next">
+										Další články
+										<span class="icon-svg icon-svg--arrow-dots">
+	<svg class="icon-svg__svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<use xlink:href="./wrapper_files/icons-svg.svg#icon-arrow-dots" x="0" y="0" width="100%" height="100%"></use>
+	</svg>
+</span>
+
+									</a>
+								</p>
+							</div>
+
+							<div class="c-links hide--m">
+								<ul class="c-links__list">
+									<li class="c-links__item">
+										<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="c-links__link">Archeologové našli pozůstatky římského tábora. Je nejsevernější na našem území</a>
+									</li>
+									<li class="c-links__item">
+										<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="c-links__link">Nové i rekonstruované. Mezi stavbami roku je tunel Blanka i Hospital v Kuksu</a>
+									</li>
+									<li class="c-links__item">
+										<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="c-links__link">Ve vesmíru je desetkrát více galaxií. Většinu z nich zatím nevidíme</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+		</main>
+
+<footer class="footer" role="contentinfo">
+	<div class="row-main">
+		<nav class="m-footer-m hide--d">
+			<ul class="m-footer-m__list">
+				<li class="m-footer-m__item">
+					<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="m-footer-m__link">
+						Cookies
+					</a>
+				</li>
+				<li class="m-footer-m__item">
+					<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="m-footer-m__link js-force-desktop">
+						Plná verze
+					</a>
+				</li>
+			</ul>
+
+			<p class="m-footer-m__top">
+				<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#top" class="link-top js-scroll-to">
+					Nahoru
+					<span class="icon-svg icon-svg--top">
+	<svg class="icon-svg__svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<use xlink:href="./wrapper_files/icons-svg.svg#icon-top" x="0" y="0" width="100%" height="100%"></use>
+	</svg>
+</span>
+
+				</a>
+			</p>
+		</nav>
+
+
+		<div class="footer__wrap hide--m">
+			<p class="footer__logo">
+				<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#">
+					<span class="vhide">iRozhlas</span>
+					<span class="icon-svg icon-svg--logo-irozhlas">
+	<svg class="icon-svg__svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<use xlink:href="./wrapper_files/icons-svg.svg#icon-logo-irozhlas" x="0" y="0" width="100%" height="100%"></use>
+	</svg>
+</span>
+
+				</a>
+			</p>
+
+			<nav class="m-tools" aria-labelledby="m-tools">
+				<p class="vhide" id="m-tools">Doplňková navigace</p>
+
+				<ul class="m-tools__list">
+					
+
+					<li class="m-tools__item m-tools__item--mobile">
+						<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="m-tools__link js-force-desktop-reset">
+							<span class="m-tools__icon"><span class="icon-svg icon-svg--mobile">
+	<svg class="icon-svg__svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<use xlink:href="./wrapper_files/icons-svg.svg#icon-mobile" x="0" y="0" width="100%" height="100%"></use>
+	</svg>
+</span>
+</span>
+							<span class="m-tools__label">Mobilní<br> verze</span>
+						</a>
+					</li>
+					<li class="m-tools__item">
+						<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="m-tools__link">
+							<span class="m-tools__icon"><span class="icon-svg icon-svg--rss">
+	<svg class="icon-svg__svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<use xlink:href="./wrapper_files/icons-svg.svg#icon-rss" x="0" y="0" width="100%" height="100%"></use>
+	</svg>
+</span>
+</span>
+							<span class="m-tools__label">RSS kanály</span>
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+
+		<div class="footer__links">
+			<nav class="m-footer hide--m" aria-labelledby="m-footer">
+				<p id="m-footer" class="vhide">Navigace v zápatí</p>
+
+				<ul class="m-footer__list">
+
+					<li class="m-footer__item">
+						<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="m-footer__link">Redakce</a>
+					</li>
+					<li class="m-footer__item">
+						<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="m-footer__link">Mapa webu</a>
+					</li>
+					<li class="m-footer__item">
+						<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="m-footer__link">Soukromí a cookies</a>
+					</li>
+					<li class="m-footer__item">
+						<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="m-footer__link">Podmínky užití</a>
+					</li>
+					<li class="m-footer__item">
+						<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="m-footer__link">Kontakty</a>
+					</li>
+					<li class="m-footer__item">
+						<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="m-footer__link">Práce</a>
+					</li>
+				</ul>
+			</nav>
+
+			<p class="footer__copy">
+				© 1997-2016 Český rozhlas
+			</p>
+		</div>
+	</div>
+</footer>
+
+		<nav class="m-mobile">
+<div class="m-mobile__panel">
+	<p class="m-mobile__logo">
+		<span class="vhide">Český rozhlas - Zprávy</span>
+		<span class="icon-svg icon-svg--logo-irozhlas">
+	<svg class="icon-svg__svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<use xlink:href="./wrapper_files/icons-svg.svg#icon-logo-irozhlas" x="0" y="0" width="100%" height="100%"></use>
+	</svg>
+</span>
+
+	</p>
+
+	<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="m-mobile__close js-mobile-menu">
+		<span class="vhide">Zavřít</span>
+		<span class="icon-svg icon-svg--close">
+	<svg class="icon-svg__svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<use xlink:href="./wrapper_files/icons-svg.svg#icon-close" x="0" y="0" width="100%" height="100%"></use>
+	</svg>
+</span>
+
+	</a>
+</div>
+
+<div class="m-mobile__wrap">
+	<div class="m-mobile__group m-mobile__group--menu">
+		<form class="m-mobile__search">
+			<p class="inp inp--btn">
+				<label for="search" class="vhide">Vyhledávání</label>
+				<span class="inp__fix">
+					<input type="text" class="inp__text inp__text--md" id="search" name="search">
+				</span>
+				<button class="btn btn--md btn--icon-blank" type="submit">
+					<span class="btn__text">
+						<span class="vhide">Vyhledat</span>
+						<span class="icon-svg icon-svg--search">
+	<svg class="icon-svg__svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<use xlink:href="./wrapper_files/icons-svg.svg#icon-search" x="0" y="0" width="100%" height="100%"></use>
+	</svg>
+</span>
+
+					</span>
+				</button>
+			</p>
+		</form>
+
+		<ul class="m-mobile__list m-mobile__list--striped">
+
+			<li class="m-mobile__item">
+				<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="m-mobile__link">Domácí</a>
+			</li>
+			<li class="m-mobile__item">
+				<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="m-mobile__link">Svět</a>
+			</li>
+			<li class="m-mobile__item">
+				<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="m-mobile__link">Regiony</a>
+			</li>
+			<li class="m-mobile__item">
+				<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="m-mobile__link">Ekonomika</a>
+			</li>
+			<li class="m-mobile__item">
+				<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="m-mobile__link">Sport</a>
+			</li>
+			<li class="m-mobile__item">
+				<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="m-mobile__link">Věda</a>
+			</li>
+			<li class="m-mobile__item">
+				<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="m-mobile__link">Kultura</a>
+			</li>
+			<li class="m-mobile__item">
+				<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="m-mobile__link">Komentáře</a>
+			</li>
+			<li class="m-mobile__item">
+				<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="m-mobile__link">Zelená vlna</a>
+			</li>
+			<li class="m-mobile__item">
+				<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="m-mobile__link">Počasí</a>
+			</li>
+		</ul>
+	</div>
+
+	<div class="m-mobile__group m-mobile__group--submenu">
+		<ul class="m-mobile__list">
+			<li class="m-mobile__item">
+				<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="m-mobile__link m-mobile__link--text-version js-text-version" data-toggled="Plná verze">
+					Textová verze
+				</a>
+			</li>
+			
+			<li class="m-mobile__item">
+				<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="m-mobile__link">
+					Nejnovější zprávy
+				</a>
+			</li>
+		</ul>
+	</div>
+
+	<div class="m-mobile__group m-mobile__group--text">
+		<p class="m-socials m-socials--lg">
+			<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="m-socials__link">
+				<span class="vhide">Facebook</span>
+				<span class="icon-svg icon-svg--facebook">
+	<svg class="icon-svg__svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<use xlink:href="./wrapper_files/icons-svg.svg#icon-facebook" x="0" y="0" width="100%" height="100%"></use>
+	</svg>
+</span>
+
+			</a>
+			<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="m-socials__link">
+				<span class="vhide">Twitter</span>
+				<span class="icon-svg icon-svg--twitter">
+	<svg class="icon-svg__svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<use xlink:href="./wrapper_files/icons-svg.svg#icon-twitter" x="0" y="0" width="100%" height="100%"></use>
+	</svg>
+</span>
+
+			</a>
+			<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="m-socials__link">
+				<span class="vhide">Google+</span>
+				<span class="icon-svg icon-svg--gplus">
+	<svg class="icon-svg__svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<use xlink:href="./wrapper_files/icons-svg.svg#icon-gplus" x="0" y="0" width="100%" height="100%"></use>
+	</svg>
+</span>
+
+			</a>
+		</p>
+
+		<div class="m-text">
+			<p>
+				<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="m-text__invert js-inverse">
+					Inverzně
+				</a>
+			</p>
+		</div>
+	</div>
+
+	<div class="m-mobile__group m-mobile__group--submenu">
+		<ul class="m-mobile__list">
+
+			<li class="m-mobile__item">
+				<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="m-mobile__link">Kontakty</a>
+			</li>
+			<li class="m-mobile__item">
+				<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="m-mobile__link">Redakce</a>
+			</li>
+			<li class="m-mobile__item">
+				<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="m-mobile__link">Cookies</a>
+			</li>
+		</ul>
+	</div>
+
+	<div class="m-mobile__group m-mobile__group--logos">
+		<ul class="m-mobile__list">
+			<li class="m-mobile__item">
+				<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="m-mobile__link m-mobile__link--cesky-rozhlas">
+					<span class="vhide">Český rozhlas</span>
+				</a>
+			</li>
+			<li class="m-mobile__item">
+				<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="m-mobile__link m-mobile__link--radiozurnal">
+					<span class="vhide">Radiožurnál</span>
+				</a>
+			</li>
+			<li class="m-mobile__item">
+				<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="m-mobile__link m-mobile__link--plus">
+					<span class="vhide">Plus</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+</div>
+
+<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="m-mobile__panel js-mobile-menu">
+	<span class="m-mobile__label">
+		Zavřít menu
+	</span>
+
+	<span class="m-mobile__close">
+		<span class="vhide">Zavřít</span>
+		<span class="icon-svg icon-svg--close">
+	<svg class="icon-svg__svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<use xlink:href="./wrapper_files/icons-svg.svg#icon-close" x="0" y="0" width="100%" height="100%"></use>
+	</svg>
+</span>
+
+	</span>
+</a>
+		</nav>
+
+		<!--[if (gte IE 9)|!(IE)]><!-->
+		<script src="./wrapper_files/app.js"></script>
+		<script>
+			App.run({});
+		</script>
+		<!--<![endif]-->
+	
+
+</body></html>

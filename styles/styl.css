@@ -1,0 +1,30 @@
+li {
+    background: none !important;
+}
+
+ul, ol {
+    list-style: initial !important;
+}
+
+hr {
+    max-width: none !important;
+}
+
+.highcharts-legend-item > .highcharts-point {
+  display: none;
+}
+#darkbluedot{
+     background: darkblue;
+     border-radius: 50%;
+     display: inline-block;
+     height: 10px;
+     margin-left: 4px;
+     margin-right: 4px;
+     bottom: 4px;
+     width: 10px;
+}
+
+.result {
+  margin-bottom: 10px;
+  margin-top: -5px;
+}
